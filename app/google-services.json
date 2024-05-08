@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "694569116491",
+    "project_id": "osllogbook",
+    "storage_bucket": "osllogbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694569116491:android:4023a9952496ac47577ece",
+        "android_client_info": {
+          "package_name": "com.example.osl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV3K4TXbLUTioTGPwXTRn3zUt9ckPmAY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,56 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#2B2323">
 
     <!-- Name EditText -->
-    <EditText
-        android:id="@+id/editTextName"
-        android:layout_width="match_parent"
-        android:layout_height="59dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:hint="Enter your name" />
 
     <!-- USN EditText -->
-    <EditText
-        android:id="@+id/editTextUSN"
-        android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:layout_below="@id/editTextName"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:hint="Enter your USN" />
 
     <!-- Password EditText -->
-    <EditText
-        android:id="@+id/editTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="61dp"
-        android:layout_below="@id/editTextUSN"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:hint="Enter your password"
-        android:inputType="textPassword" />
 
     <!-- Register Button -->
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="381dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter your name"
+        android:textColor="#D63737"
+        android:textColorHint="#EA7171" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="396dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/editTextName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="-1dp"
+        android:hint="Enter your email"
+        android:textColor="#D63737"
+        android:textColorHint="#EA7171" />
+
+    <EditText
+        android:id="@+id/editTextUSN"
+        android:layout_width="395dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/editTextName"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="2dp"
+        android:hint="Enter your USN"
+        android:textColor="#D63737"
+        android:textColorHint="#EA7171" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="395dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/editTextUSN"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="5dp"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:textColor="#D63737"
+        android:textColorHint="#EA7171" />
+
     <Button
         android:id="@+id/buttonRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
         android:layout_below="@id/editTextPassword"
-        android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true"/>
+        android:layout_alignParentEnd="true"
+
+
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="159dp"
+        android:backgroundTint="#A32222"
+        android:text="Register"
+        android:textColorHighlight="#EA7171"
+        android:textColorLink="#EA7171" />
 
     <Button
         android:id="@+id/buttonNavigateToLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/buttonRegister"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:text="Already Registered? Login"/>
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="96dp"
+        android:backgroundTint="#A32222"
+        android:text="Already Registered? Login" />
 
     <Button
         android:id="@+id/buttonForgotPassword"
@@ -58,10 +98,19 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="119dp"
-        android:layout_marginBottom="275dp"
+
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="160dp"
+        android:backgroundTint="#A32222"
         android:text="Forgot Password" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="129dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="86dp"
+        app:srcCompat="@drawable/osllogo_removebg_preview" />
 
 
 </RelativeLayout>

@@ -1,30 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#2B2323">
 
     <EditText
         android:id="@+id/editTextUsn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="371dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="21dp"
         android:hint="Enter USN"
-        android:inputType="text"/>
+        android:inputType="text"
+        android:textColor="#D63737"
+        android:textColorHint="#EA7171" />
 
     <EditText
         android:id="@+id/editTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="58dp"
+        android:layout_width="378dp"
+        android:layout_height="60dp"
         android:layout_below="@id/editTextUsn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="19dp"
         android:hint="Enter Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:textColor="#D63737"
+        android:textColorHint="#EA7171" />
 
     <Button
         android:id="@+id/buttonLogin"
-        android:layout_width="wrap_content"
+        android:layout_width="118dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextPassword"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:text="Login"/>
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="154dp"
+        android:backgroundTint="#A32222"
+
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="123dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="818dp"
+        android:text="Login "
+        android:textColor="#DC9B3D"
+        android:textColorHint="#C53E3E"
+        android:textSize="24sp" />
 
 </RelativeLayout>
