@@ -11,10 +11,13 @@ data class User(
     val name: String,
     val usn: String,
     val password: String,
-  //  val loginTime: String
+
+
+
+  // val loginTime: String
     //val loginTime: Long = 0,
 //    @ColumnInfo(name = "login_time")
-//    val loginTime: Long = System.currentTimeMillis()
+  val loginTime: Long = System.currentTimeMillis()
 
 
 

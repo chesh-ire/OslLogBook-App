@@ -16,6 +16,8 @@ interface UserDao {
     @Query("SELECT * FROM users")
     suspend fun getAllUsers(): List<User>
 
+
+
     @Update
     suspend fun updatePassword(user: User)
 }
